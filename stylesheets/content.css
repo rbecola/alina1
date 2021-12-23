@@ -187,6 +187,9 @@ div.sq4 h1 {
   float:right;
   top:-87.5%;
 }
+div.sq4 h1 {
+  transform: translate(2%, 22%);
+}
 .sq5 {
   width: 42.35%;
   height: 100%;
@@ -197,7 +200,7 @@ div.sq4 h1 {
 }
 div.sq5 h1 {
   position:absolute;
-  transform: translate(0, 6%);
+  transform: translate(2%, 6%);
   width: 120%;
   color: #FFFFFF;
 }
