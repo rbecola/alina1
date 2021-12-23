@@ -6,7 +6,6 @@ h1 {
   display: block;
   vertical-align: top;
   text-align: left;
-  margin-left: 2.5%;
   margin-right: auto;
 }
 h2 {
@@ -17,10 +16,8 @@ h2 {
   display: block;
   vertical-align: top;
   text-align: left;
-  margin-left: 2.5%;
   margin-right: auto;
 }
-  h3 {font-family: Eldwin Light; font-size: 1.5vw; color: white; padding-left: 0.893vw; line-height: 1.488vw; vertical-align: top; text-align: left;}
 p {
   font-family: Eldwin Light;
   font-size: 2vw;
