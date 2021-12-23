@@ -1,0 +1,480 @@
+body {
+  margin: 0;
+  height: auto;
+    /* background: url(1441.png);
+    background-size: cover; */
+  .grid {
+    margin: 0% 0%;
+    padding: 0px 0.893vw;
+    position: relative;
+    width: 100%;
+    height: 100vw;
+    overflow-x: hidden;
+  }
+}
+.grid {
+  margin: 0% 0%;
+  position: relative;
+  width: 100%;
+  height: 100vw;
+}
+.grid img {
+  text-align: center;
+}
+.column_1 {
+  display: inline-block;
+  height: 19%;
+  width: 100%;
+  vertical-align: top;
+}
+.column_2 { /* 2 строчка, где кот виляет хвостом */
+  display: inline-block;
+  margin-top: 14%;   /* чтобы колонка прилипала к колонке */
+  height: 32.8%;
+  width: 100%;
+  vertical-align: top;
+}
+.column_3 { /* текст и глаз */
+  display: inline-block;
+  margin-top: 0;   /* чтобы колонка прилипала к колонке */
+  height: 17.6%;
+  width: 100%;
+  vertical-align: top;
+}
+.column_4 {
+  display: inline-block;
+  margin-top: -12%;   /* чтобы колонка прилипала к колонке */
+  height: 23.9%;
+  width: 100%;
+  vertical-align: top;
+}
+.column_5 {
+  display: inline-block;
+  margin-top: -12.9%;   /* чтобы колонка прилипала к колонке */
+  height: 30.45%;
+  width: 100%;
+  vertical-align: top;
+}
+.column_6 {
+  display: inline-block;
+  margin-top: -18.3%;   /* чтобы колонка прилипала к колонке */
+  height: 19%;
+  width: 100%;
+  vertical-align: top;
+}
+
+
+
+
+
+.lines {
+  display: flex;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  /* width:150% ; */
+  height: 154%;
+  left: 83.6%;
+  top: -47.5%;
+}
+
+.catt{
+  display: flex;
+  position: relative;
+  /* width:10% ; */
+  height: 130%;
+  left: 68.77%;
+  top: -330%;
+  margin: none;
+  padding: 0;
+}
+
+
+
+.column_7 {
+  display: inline-block;
+  /* если поставишь маргин -7% и ниже, то весь нижний ряд подвинется */
+  margin-top: -1.5%;   /* чтобы колонка прилипала к колонке */
+  height: 33.5%;
+  width: 100%;
+  vertical-align: top;
+}
+.column_8 {
+  display: inline-block;
+  margin-top: -1%;   /* чтобы колонка прилипала к колонке */
+  height: 8.1%;
+  width: 100%;
+  vertical-align: top;
+}
+
+.white {
+  position: absolute;
+  bottom:0;
+  right: 0;
+  width: 100%;
+  height: 42%;
+  background-color: #FFFFFF;
+}
+.sq1 {
+  width: 42.35%;
+  height: 173.5%;
+  position: relative;
+  display: inline-block;
+  background-color: #000000;
+  vertical-align: top;
+  overflow: hidden;
+}
+.sq2 {
+  width: 24.25%;
+  height: 173.5%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #C4C4C4;
+}
+.sq3 {
+  width: 33.4%;
+  height: 100.75%;
+  position: relative;
+  display: inline-block;
+  left: 66.6%;
+  top: -180%;
+  background-color: #FF0000;
+  z-index: 3;
+}
+
+.gun {
+  position: relative;
+  width: 68%;
+  height: 68%;
+  z-index: 1;
+  top: 20%;
+  left: 20%;
+}
+
+
+.gun_white {
+  width: 68%;
+  height: 68%;
+  position: relative;
+  top: 10%;
+  left: -10%;
+}
+
+.gun_black {
+  width: 68%;
+  height: 68%;
+  position: relative;
+  top: -50%;
+  left: 35%;
+  /* z-index: 1; */
+}
+
+
+div.sq4, div.sq5 {
+  position: relative;
+}
+div.sq4 h1 {
+  position:absolute;
+  transform: translate(0, 22%);
+}
+.sq4 {
+  width: 33.4%;
+  height: 86.75%;
+  position: relative;
+  display: inline-block;
+  background-color: #FFFFFF;
+  float:right;
+  top:-87.5%;
+}
+.sq5 {
+  width: 42.35%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FF0000;
+}
+div.sq5 h1 {
+  position:absolute;
+  transform: translate(0, 6%);
+  width: 120%;
+  color: #FFFFFF;
+}
+.call {
+  width: 90%;
+  height: 90%;
+  margin-top: 6%;
+  margin-left: 9%;
+  z-index: 2;
+  position: relative;
+}
+.sq6 {
+  width: 24.25%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #000000;
+}
+.sq7 {
+  width: 33%;
+  height: 110%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #939393;
+}
+.sq8 {
+  width: 66.6%;
+  height: 36%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #C4C4C4;
+}
+div.sq8 h2 {
+position:absolute;
+transform: translate(0, 95%);
+width: 120%;
+color: #000000;
+}
+.sq9 {
+  width: 33.4%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FF0000;
+}
+
+
+
+.beye {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translate(199.4%, -108.8%);
+  z-index: 1;
+}
+
+.ineye {
+  width: 90%;
+  height: 90%;
+  position: relative;
+  left: 205%;
+  top: -15%;
+
+}
+
+
+.sq10 {
+  width: 46.6%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #797979;
+}
+.sq11 {
+  width: 20%;
+  height: 47%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FFFFFF;
+}
+.sq12 {
+  width: 20%;
+  height: 41.6%;
+  left:46.6%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #000000;
+}
+div.sq12 h2 {
+position:absolute;
+transform: translate(7%, 7%);
+width: 120%;
+font-size: 1.6vw;
+color: #FFFFFF;
+}
+.sq13 {
+  width: 33.4%;
+  height: 100%;
+  top: 20%;
+  left:46.6%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FFFFFF;
+}
+.sq14 {
+  width: 66.6%;
+  height: 35%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #D8D8D8;
+  top: -450%;
+}
+div.sq14 h2 {
+position:absolute;
+transform: translate(-1%, 110%);
+width: 100%;
+color: #000000;
+}
+.sq15 {
+  width: 66.6%;
+  height: 90%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  background-color: #000000;
+    top: -450%;
+}
+.redsquare {
+  position: relative;
+  width: 18%;
+  height: 91%;
+  top: -93.2%;
+  background-color: #FF0000;
+  /* z-index: 2; */
+}
+
+
+.lit_cat{
+  position: relative;
+  width: 15%;
+  height: 92%;
+  top: -5%;
+  left: -41%;
+  z-index: 1;
+}
+
+
+
+
+
+div.sq15 h1 {
+  color: #FFFFFF;
+  position:absolute;
+  transform: translate(23%, 112%);
+}
+.sq16 {
+  width: 46.6%;
+  height: 100%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #424242;
+}
+.sq17 {
+  width: 20%;
+  height: 28%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FFFFFF;
+}
+.sq18 {
+  width: 33.4%;
+  height: 28%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #939393;
+}
+div.sq18 h2 {
+position:absolute;
+transform: translate(2%, 60%);
+}
+.sq19 {
+  width: 53.4%;
+  height: 72%;
+  left: 46.6%;
+  top: -72%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #000000;
+}
+.sq20 {
+  width: 100%;
+  height: 100%;
+  top: 10%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #D7D7D7;
+}
+div.sq20 h1 {
+position:absolute;
+transform: translate(0%, 60%);
+width: 100%;
+color: #000000;
+}
+.sq21 {
+  width: 100%;
+  height: 70%;
+  top: 40%;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FFFFFF;
+}
+  .logo {
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    position: absolute;
+}
+.cat {
+  width: 95%;
+  height: 90%;
+  position: absolute;
+  top:21%;
+  left:-4%;
+  z-index: 2;
+}
+
+.stripes {
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+.cat2 {
+  width: 80%;
+  height: auto;
+  position: absolute;
+  left:10%;
+  top:10%;
+
+}
+.t3 {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  transform: translate(910%, 434%);
+}
+.eyes {
+  width: 80%;
+  height: auto;
+  position: absolute;
+  transform: translate(11%, 300%);
+  z-index: 1;
+}
+
+.glasses {
+z-index: 2;
+}
+.t142 {
+  width: 80%;
+  height: auto;
+  position: absolute;
+  transform: translate(16%, 33.1%);
+  z-index: 1;
+}
