@@ -251,10 +251,10 @@ color: #000000;
 
 
 .beye {
-  width: 100%;
+  width: 99.5%;
   height: 100%;
   position: relative;
-  transform: translate(199.4%, -108.8%);
+  transform: translate(200.2%, -108.8%);
   z-index: 1;
 }
 
