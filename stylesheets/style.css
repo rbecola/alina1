@@ -1,0 +1,17 @@
+@import "reset.css";
+@import "layout.css";
+@import "content.css";
+@import "animation.css";
+/* @import "adaptive.css"; */
+@font-face {
+   font-family: 'Eldwin Regular';
+   src:url("../fonts/Eldwin-CapitalsRegular.otf") format('opentype');
+   font-weight: normal;
+   font-style: normal;
+ }
+ @font-face {
+    font-family: 'Eldwin Light';
+    src:url("../fonts/Eldwin-CapitalsLight.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
