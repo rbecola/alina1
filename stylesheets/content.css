@@ -364,7 +364,7 @@ color: #000000;
 div.sq15 h1 {
   color: #FFFFFF;
   position:absolute;
-  transform: translate(23%, 112%);
+  transform: translate(25%, 114%);
 }
 .sq16 {
   width: 46.6%;
@@ -415,7 +415,7 @@ transform: translate(2%, 60%);
 }
 div.sq20 h1 {
 position:absolute;
-transform: translate(0%, 60%);
+transform: translate(2%, 60%);
 width: 100%;
 color: #000000;
 }
